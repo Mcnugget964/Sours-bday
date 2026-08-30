@@ -173,9 +173,9 @@ function markFound(word) {
     setTimeout(() => showModal(`
       <div class="complete">
         <div style="font-size:46px;color:var(--yellow)">✦</div>
-        <h2>SPANGRAM FOUND!</h2>
-        <p>You found the yellow one.</p>
-        <button class="primary-btn" id="keepBtn">KEEP GOING</button>
+        <h2>SPANNAGRAM FOUND!</h2>
+        <p>You clocked a long one :p</p>
+        <button class="primary-btn" id="keepBtn">OKAY W</button>
       </div>
     `), 180);
     document.getElementById("keepBtn")?.addEventListener("click", closeModal);
@@ -299,7 +299,7 @@ function showCompletion() {
   showModal(`
     <div class="complete">
       <div style="font-size:52px;color:var(--yellow)">✦</div>
-      <h2>Happy birthday Flora :)</h2>
+      <h2>Happy Birthday Flora :)</h2>
     </div>
   `);
 }
